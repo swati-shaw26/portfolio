@@ -1,0 +1,86 @@
+h1{
+    color:rgb(7, 7, 49);
+    font-family: 'Franklin Gothic Medium';
+    margin-left:550px;
+   
+
+}
+
+.header{
+    background-color: indianred;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+.grid{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+p,h2{
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+   
+}
+.header1{
+    background-color: burlywood;
+}
+.image{
+   display:flex;
+   justify-content: center;
+   border:solid;
+   border-radius: 20px;
+
+  
+}
+
+body{
+    background-color:#67b2c5;
+}
+
+.column{
+    background-color: blueviolet;
+}
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+.menu{
+    margin-right:30px;
+    margin-top:20px;
+}
+.menu a{
+    margin-left:20px;
+   
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
+.item img{
+    border-radius:20px;
+}
